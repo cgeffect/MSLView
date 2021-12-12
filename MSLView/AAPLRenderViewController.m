@@ -6,7 +6,7 @@ Implementation of the cross-platform Metal rendering view controller.
 */
 
 #import "AAPLRenderViewController.h"
-#import "AAPLEditViewController.h"
+#import "MSLEditViewController.h"
 #include "MSLRenderer.h"
 
 @implementation AAPLRenderViewController
@@ -42,7 +42,7 @@ Implementation of the cross-platform Metal rendering view controller.
 {
     [super viewWillAppear];
     
-    AAPLEditViewController *editViewController = (AAPLEditViewController *)[[[((NSSplitViewController *)[self parentViewController])
+    MSLEditViewController *editViewController = (MSLEditViewController *)[[[((NSSplitViewController *)[self parentViewController])
                                   splitViewItems]
                                  firstObject]
                                 viewController];

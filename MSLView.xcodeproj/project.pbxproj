@@ -16,7 +16,7 @@
 		7294147B2218065E00C0214C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729414792218063C00C0214C /* MetalKit.framework */; };
 		D1177D5D248EF6D00034DD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1177D5C248EF6D00034DD97 /* Assets.xcassets */; };
 		D1A67197248F13250029C302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A67195248F13250029C302 /* Main.storyboard */; };
-		D1DBA32C249199CE00092D86 /* AAPLEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBA32B249199CE00092D86 /* AAPLEditViewController.m */; };
+		D1DBA32C249199CE00092D86 /* MSLEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBA32B249199CE00092D86 /* MSLEditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,8 @@
 		D193DA7C248DFAE200060D14 /* AAPLUserDylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLUserDylib.h; sourceTree = "<group>"; };
 		D193DA7D248DFAE200060D14 /* AAPLUserDylib.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = AAPLUserDylib.metal; sourceTree = "<group>"; };
 		D1A67196248F13250029C302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1DBA32A249199CE00092D86 /* AAPLEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEditViewController.h; sourceTree = "<group>"; };
-		D1DBA32B249199CE00092D86 /* AAPLEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEditViewController.m; sourceTree = "<group>"; };
+		D1DBA32A249199CE00092D86 /* MSLEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLEditViewController.h; sourceTree = "<group>"; };
+		D1DBA32B249199CE00092D86 /* MSLEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLEditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 			children = (
 				3AB3B59B202937B600547B49 /* MSLAppDelegate.h */,
 				3AB3B59C202937B600547B49 /* MSLAppDelegate.m */,
-				D1DBA32A249199CE00092D86 /* AAPLEditViewController.h */,
-				D1DBA32B249199CE00092D86 /* AAPLEditViewController.m */,
+				D1DBA32A249199CE00092D86 /* MSLEditViewController.h */,
+				D1DBA32B249199CE00092D86 /* MSLEditViewController.m */,
 				3AB3B59E202937B600547B49 /* AAPLRenderViewController.h */,
 				3AB3B59F202937B600547B49 /* AAPLRenderViewController.m */,
 				D1A67195248F13250029C302 /* Main.storyboard */,
@@ -239,7 +239,7 @@
 				40EC2BCE24778147005FECDD /* MSLAppDelegate.m in Sources */,
 				3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */,
 				3AB3B5D82029381D00547B49 /* main.m in Sources */,
-				D1DBA32C249199CE00092D86 /* AAPLEditViewController.m in Sources */,
+				D1DBA32C249199CE00092D86 /* MSLEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

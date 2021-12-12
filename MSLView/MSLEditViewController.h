@@ -10,7 +10,7 @@ Header for the cross-platform text editing view controller.
 
 #include "MSLRenderer.h"
 
-@interface AAPLEditViewController : NSViewController
+@interface MSLEditViewController : NSViewController
 @property (unsafe_unretained) IBOutlet NSTextView *textView;
 @property (atomic) MSLRenderer *renderer;
 

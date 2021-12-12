@@ -5,9 +5,9 @@ Abstract:
 Implementation of the cross-platform text editing view controller.
 */
 
-#import "AAPLEditViewController.h"
+#import "MSLEditViewController.h"
 
-@implementation AAPLEditViewController
+@implementation MSLEditViewController
 {
     NSString *_dylibString;
     CGFloat spaceToBottomValueStartValue;

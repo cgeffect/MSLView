@@ -493,7 +493,7 @@
         <!--Edit View Controller-->
         <scene sceneID="e3n-zt-nXr">
             <objects>
-                <viewController id="QJZ-Sb-Vqy" customClass="AAPLEditViewController" sceneMemberID="viewController">
+                <viewController id="QJZ-Sb-Vqy" customClass="MSLEditViewController" sceneMemberID="viewController">
                     <view key="view" id="UNR-qx-bD5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
