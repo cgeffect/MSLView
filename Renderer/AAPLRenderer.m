@@ -336,7 +336,7 @@ static const NSUInteger AAPLMaxFramesInFlight = 3;
 
         NSError *error;
 
-        _colorMap = [textureLoader newTextureWithName:@"ColorMap"
+        _colorMap = [textureLoader newTextureWithName:@"rgba"
                                           scaleFactor:1.0
                                                bundle:nil
                                               options:textureLoaderOptions

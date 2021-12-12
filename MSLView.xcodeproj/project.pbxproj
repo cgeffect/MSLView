@@ -61,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				76FDF2A72D1DC77AD7367E01 /* README.md */,
-				D1177D5C248EF6D00034DD97 /* Assets.xcassets */,
 				3AB3B5D6202937C000547B49 /* Application */,
 				3AB3B57E202937B500547B49 /* Renderer */,
 				3AB3B58A202937B600547B49 /* Products */,
@@ -103,6 +102,7 @@
 				3AB3B59E202937B600547B49 /* AAPLRenderViewController.h */,
 				3AB3B59F202937B600547B49 /* AAPLRenderViewController.m */,
 				D1A67195248F13250029C302 /* Main.storyboard */,
+				D1177D5C248EF6D00034DD97 /* Assets.xcassets */,
 				3AB3B592202937B600547B49 /* Info.plist */,
 				3AB3B5D72029381D00547B49 /* main.m */,
 			);
