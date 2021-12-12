@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Main app entry point.
-*/
+//
+//  MSLRenderer.h
+//  mian
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
 #import <Cocoa/Cocoa.h>
 
