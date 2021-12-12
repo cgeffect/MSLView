@@ -6,7 +6,7 @@ Header for the cross-platform app delegate.
 */
 
 @import AppKit;
-@interface AAPLAppDelegate : NSObject <NSApplicationDelegate>
+@interface MSLAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (strong, nonatomic) NSWindow *window;
 

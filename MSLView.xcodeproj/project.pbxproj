@@ -12,7 +12,7 @@
 		3AB3B5D82029381D00547B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B5D72029381D00547B49 /* main.m */; };
 		3AB3B5DB2029381F00547B49 /* AAPLRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59F202937B600547B49 /* AAPLRenderViewController.m */; };
 		4008BE6D249B525100348570 /* AAPLUserCompiledFunction.metal in Resources */ = {isa = PBXBuildFile; fileRef = D12FA8EB24940DD500796602 /* AAPLUserCompiledFunction.metal */; };
-		40EC2BCE24778147005FECDD /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59C202937B600547B49 /* AAPLAppDelegate.m */; };
+		40EC2BCE24778147005FECDD /* MSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59C202937B600547B49 /* MSLAppDelegate.m */; };
 		7294147B2218065E00C0214C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729414792218063C00C0214C /* MetalKit.framework */; };
 		D1177D5D248EF6D00034DD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1177D5C248EF6D00034DD97 /* Assets.xcassets */; };
 		D1A67197248F13250029C302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A67195248F13250029C302 /* Main.storyboard */; };
@@ -28,8 +28,8 @@
 		3AB3B584202937B600547B49 /* AAPLMathUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLMathUtilities.m; sourceTree = "<group>"; };
 		3AB3B589202937B600547B49 /* MSLView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSLView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB3B592202937B600547B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AB3B59B202937B600547B49 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
-		3AB3B59C202937B600547B49 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		3AB3B59B202937B600547B49 /* MSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLAppDelegate.h; sourceTree = "<group>"; };
+		3AB3B59C202937B600547B49 /* MSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLAppDelegate.m; sourceTree = "<group>"; };
 		3AB3B59E202937B600547B49 /* AAPLRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLRenderViewController.h; sourceTree = "<group>"; };
 		3AB3B59F202937B600547B49 /* AAPLRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLRenderViewController.m; sourceTree = "<group>"; };
 		3AB3B5D72029381D00547B49 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		3AB3B5D6202937C000547B49 /* MSLView */ = {
 			isa = PBXGroup;
 			children = (
-				3AB3B59B202937B600547B49 /* AAPLAppDelegate.h */,
-				3AB3B59C202937B600547B49 /* AAPLAppDelegate.m */,
+				3AB3B59B202937B600547B49 /* MSLAppDelegate.h */,
+				3AB3B59C202937B600547B49 /* MSLAppDelegate.m */,
 				D1DBA32A249199CE00092D86 /* AAPLEditViewController.h */,
 				D1DBA32B249199CE00092D86 /* AAPLEditViewController.m */,
 				3AB3B59E202937B600547B49 /* AAPLRenderViewController.h */,
@@ -236,7 +236,7 @@
 			files = (
 				3AB3B5DB2029381F00547B49 /* AAPLRenderViewController.m in Sources */,
 				3AB3B5BE202937B600547B49 /* MSLRenderer.m in Sources */,
-				40EC2BCE24778147005FECDD /* AAPLAppDelegate.m in Sources */,
+				40EC2BCE24778147005FECDD /* MSLAppDelegate.m in Sources */,
 				3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */,
 				3AB3B5D82029381D00547B49 /* main.m in Sources */,
 				D1DBA32C249199CE00092D86 /* AAPLEditViewController.m in Sources */,

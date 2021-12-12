@@ -5,9 +5,9 @@ Abstract:
 Implementation of the cross-platform app delegate.
 */
 
-#import "AAPLAppDelegate.h"
+#import "MSLAppDelegate.h"
 
-@implementation AAPLAppDelegate
+@implementation MSLAppDelegate
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
 {
     return YES;
