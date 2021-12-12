@@ -5,18 +5,9 @@ Abstract:
 Header for the cross-platform app delegate.
 */
 
-#if defined(TARGET_IOS)
-@import UIKit;
-#define PlatformAppDelegate UIResponder <UIApplicationDelegate>
-#define PlatformWindow UIWindow
-#else
 @import AppKit;
-#define PlatformAppDelegate NSObject <NSApplicationDelegate>
-#define PlatformWindow NSWindow
-#endif
+@interface AAPLAppDelegate : NSObject <NSApplicationDelegate>
 
-@interface AAPLAppDelegate : PlatformAppDelegate
-
-@property (strong, nonatomic) PlatformWindow *window;
+@property (strong, nonatomic) NSWindow *window;
 
 @end
