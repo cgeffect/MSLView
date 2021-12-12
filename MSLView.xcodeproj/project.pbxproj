@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				76FDF2A72D1DC77AD7367E01 /* README.md */,
-				3AB3B5D6202937C000547B49 /* Application */,
 				3AB3B57E202937B500547B49 /* Renderer */,
+				3AB3B5D6202937C000547B49 /* MSLView */,
 				3AB3B58A202937B600547B49 /* Products */,
 				729414782218050400C0214C /* Frameworks */,
 			);
@@ -92,7 +92,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AB3B5D6202937C000547B49 /* Application */ = {
+		3AB3B5D6202937C000547B49 /* MSLView */ = {
 			isa = PBXGroup;
 			children = (
 				3AB3B59B202937B600547B49 /* AAPLAppDelegate.h */,
@@ -106,7 +106,7 @@
 				3AB3B592202937B600547B49 /* Info.plist */,
 				3AB3B5D72029381D00547B49 /* main.m */,
 			);
-			path = Application;
+			path = MSLView;
 			sourceTree = "<group>";
 		};
 		729414782218050400C0214C /* Frameworks */ = {
@@ -381,7 +381,7 @@
 					"TARGET_MACOS=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MSLView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -403,7 +403,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_MACOS=1";
-				INFOPLIST_FILE = "$(SRCROOT)/Application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MSLView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_FAST_MATH = NO;
