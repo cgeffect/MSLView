@@ -10,7 +10,7 @@
 		3AB3B5BE202937B600547B49 /* MSLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B580202937B500547B49 /* MSLRenderer.m */; };
 		3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B584202937B600547B49 /* AAPLMathUtilities.m */; };
 		3AB3B5D82029381D00547B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B5D72029381D00547B49 /* main.m */; };
-		3AB3B5DB2029381F00547B49 /* MSLRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59F202937B600547B49 /* MSLRenderViewController.m */; };
+		3AB3B5DB2029381F00547B49 /* MSLRenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59F202937B600547B49 /* MSLRenderController.m */; };
 		4008BE6D249B525100348570 /* AAPLUserCompiledFunction.metal in Resources */ = {isa = PBXBuildFile; fileRef = D12FA8EB24940DD500796602 /* AAPLUserCompiledFunction.metal */; };
 		40EC2BCE24778147005FECDD /* MSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59C202937B600547B49 /* MSLAppDelegate.m */; };
 		7294147B2218065E00C0214C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729414792218063C00C0214C /* MetalKit.framework */; };
@@ -30,8 +30,8 @@
 		3AB3B592202937B600547B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB3B59B202937B600547B49 /* MSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLAppDelegate.h; sourceTree = "<group>"; };
 		3AB3B59C202937B600547B49 /* MSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLAppDelegate.m; sourceTree = "<group>"; };
-		3AB3B59E202937B600547B49 /* MSLRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLRenderViewController.h; sourceTree = "<group>"; };
-		3AB3B59F202937B600547B49 /* MSLRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLRenderViewController.m; sourceTree = "<group>"; };
+		3AB3B59E202937B600547B49 /* MSLRenderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLRenderController.h; sourceTree = "<group>"; };
+		3AB3B59F202937B600547B49 /* MSLRenderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLRenderController.m; sourceTree = "<group>"; };
 		3AB3B5D72029381D00547B49 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		729414792218063C00C0214C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		7294147A2218064F00C0214C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
@@ -99,8 +99,8 @@
 				3AB3B59C202937B600547B49 /* MSLAppDelegate.m */,
 				D1DBA32A249199CE00092D86 /* MSLEditViewController.h */,
 				D1DBA32B249199CE00092D86 /* MSLEditViewController.m */,
-				3AB3B59E202937B600547B49 /* MSLRenderViewController.h */,
-				3AB3B59F202937B600547B49 /* MSLRenderViewController.m */,
+				3AB3B59E202937B600547B49 /* MSLRenderController.h */,
+				3AB3B59F202937B600547B49 /* MSLRenderController.m */,
 				D1A67195248F13250029C302 /* Main.storyboard */,
 				D1177D5C248EF6D00034DD97 /* Assets.xcassets */,
 				3AB3B592202937B600547B49 /* Info.plist */,
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB3B5DB2029381F00547B49 /* MSLRenderViewController.m in Sources */,
+				3AB3B5DB2029381F00547B49 /* MSLRenderController.m in Sources */,
 				3AB3B5BE202937B600547B49 /* MSLRenderer.m in Sources */,
 				40EC2BCE24778147005FECDD /* MSLAppDelegate.m in Sources */,
 				3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */,

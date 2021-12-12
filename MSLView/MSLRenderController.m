@@ -1,15 +1,16 @@
-/*
-See LICENSE folder for this sample’s licensing information.
+//
+//  MSLRenderController.m
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
-Abstract:
-Implementation of the cross-platform Metal rendering view controller.
-*/
 
-#import "MSLRenderViewController.h"
+#import "MSLRenderController.h"
 #import "MSLEditViewController.h"
 #include "MSLRenderer.h"
 
-@implementation MSLRenderViewController
+@implementation MSLRenderController
 {
     MTKView *_view;
     

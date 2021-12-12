@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Implementation of the renderer class that performs Metal setup and per-frame rendering.
-*/
+//
+//  MSLRenderer.m
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
 @import simd;
 @import MetalKit;

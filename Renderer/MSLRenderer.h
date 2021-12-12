@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Header for the renderer class that performs Metal setup and per-frame rendering.
-*/
+//
+//  MSLRenderer.h
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
 #ifndef MSLRenderer_h
 #define MSLRenderer_h

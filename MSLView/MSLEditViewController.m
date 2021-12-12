@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Implementation of the cross-platform text editing view controller.
-*/
+//
+//  MSLEditViewController.m
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
 #import "MSLEditViewController.h"
 

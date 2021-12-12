@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Header for the cross-platform text editing view controller.
-*/
+//
+//  MSLEditViewController.h
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
 @import AppKit;
 @import MetalKit;

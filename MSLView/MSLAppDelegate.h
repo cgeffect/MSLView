@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
+//
+//  AppDelegate.h
+//  MSLView
+//
+//  Created by 王腾飞 on 2021/12/12.
+//
 
-Abstract:
-Header for the cross-platform app delegate.
-*/
 
 @import AppKit;
 @interface MSLAppDelegate : NSObject <NSApplicationDelegate>
