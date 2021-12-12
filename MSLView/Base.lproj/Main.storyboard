@@ -554,7 +554,7 @@
         <!--Render View Controller-->
         <scene sceneID="Hf4-B2-gZw">
             <objects>
-                <viewController id="vzW-3k-J8I" customClass="AAPLRenderViewController" sceneMemberID="viewController">
+                <viewController id="vzW-3k-J8I" customClass="MSLRenderViewController" sceneMemberID="viewController">
                     <view key="view" id="Jx7-gG-4l7" customClass="MTKView">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

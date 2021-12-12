@@ -5,11 +5,11 @@ Abstract:
 Implementation of the cross-platform Metal rendering view controller.
 */
 
-#import "AAPLRenderViewController.h"
+#import "MSLRenderViewController.h"
 #import "MSLEditViewController.h"
 #include "MSLRenderer.h"
 
-@implementation AAPLRenderViewController
+@implementation MSLRenderViewController
 {
     MTKView *_view;
     

@@ -8,6 +8,6 @@ Header for the cross-platform Metal rendering view controller.
 @import AppKit;
 @import MetalKit;
 
-@interface AAPLRenderViewController : NSViewController
+@interface MSLRenderViewController : NSViewController
 
 @end
