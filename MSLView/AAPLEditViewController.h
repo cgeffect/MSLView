@@ -8,10 +8,10 @@ Header for the cross-platform text editing view controller.
 @import AppKit;
 @import MetalKit;
 
-#include "AAPLRenderer.h"
+#include "MSLRenderer.h"
 
 @interface AAPLEditViewController : NSViewController
 @property (unsafe_unretained) IBOutlet NSTextView *textView;
-@property (atomic) AAPLRenderer *renderer;
+@property (atomic) MSLRenderer *renderer;
 
 @end

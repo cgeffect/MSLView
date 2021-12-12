@@ -8,7 +8,7 @@ Implementation of the renderer class that performs Metal setup and per-frame ren
 @import simd;
 @import MetalKit;
 
-#import "AAPLRenderer.h"
+#import "MSLRenderer.h"
 #import "AAPLMathUtilities.h"
 
 // Include header shared between C code here, which executes Metal API commands, and .metal files
@@ -19,7 +19,7 @@ static const NSUInteger AAPLMaxFramesInFlight = 3;
 
 
 // Main class performing the rendering
-@implementation AAPLRenderer
+@implementation MSLRenderer
 {
     dispatch_semaphore_t _inFlightSemaphore;
     id <MTLBuffer> _frameDataBuffer[AAPLMaxFramesInFlight];

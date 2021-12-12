@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AB3B5BE202937B600547B49 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B580202937B500547B49 /* AAPLRenderer.m */; };
+		3AB3B5BE202937B600547B49 /* MSLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B580202937B500547B49 /* MSLRenderer.m */; };
 		3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B584202937B600547B49 /* AAPLMathUtilities.m */; };
 		3AB3B5D82029381D00547B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B5D72029381D00547B49 /* main.m */; };
 		3AB3B5DB2029381F00547B49 /* AAPLRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B59F202937B600547B49 /* AAPLRenderViewController.m */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AB3B57F202937B500547B49 /* AAPLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLRenderer.h; sourceTree = "<group>"; };
-		3AB3B580202937B500547B49 /* AAPLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLRenderer.m; sourceTree = "<group>"; };
+		3AB3B57F202937B500547B49 /* MSLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLRenderer.h; sourceTree = "<group>"; };
+		3AB3B580202937B500547B49 /* MSLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLRenderer.m; sourceTree = "<group>"; };
 		3AB3B581202937B500547B49 /* AAPLShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLShaderTypes.h; sourceTree = "<group>"; };
 		3AB3B582202937B600547B49 /* AAPLShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AAPLShaders.metal; sourceTree = "<group>"; };
 		3AB3B583202937B600547B49 /* AAPLMathUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLMathUtilities.h; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 			children = (
 				3AB3B583202937B600547B49 /* AAPLMathUtilities.h */,
 				3AB3B584202937B600547B49 /* AAPLMathUtilities.m */,
-				3AB3B57F202937B500547B49 /* AAPLRenderer.h */,
-				3AB3B580202937B500547B49 /* AAPLRenderer.m */,
+				3AB3B57F202937B500547B49 /* MSLRenderer.h */,
+				3AB3B580202937B500547B49 /* MSLRenderer.m */,
 				3AB3B582202937B600547B49 /* AAPLShaders.metal */,
 				3AB3B581202937B500547B49 /* AAPLShaderTypes.h */,
 				D193DA7C248DFAE200060D14 /* AAPLUserDylib.h */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB3B5DB2029381F00547B49 /* AAPLRenderViewController.m in Sources */,
-				3AB3B5BE202937B600547B49 /* AAPLRenderer.m in Sources */,
+				3AB3B5BE202937B600547B49 /* MSLRenderer.m in Sources */,
 				40EC2BCE24778147005FECDD /* AAPLAppDelegate.m in Sources */,
 				3AB3B5CA202937B600547B49 /* AAPLMathUtilities.m in Sources */,
 				3AB3B5D82029381D00547B49 /* main.m in Sources */,

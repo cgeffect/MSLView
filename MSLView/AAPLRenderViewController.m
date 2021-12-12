@@ -7,13 +7,13 @@ Implementation of the cross-platform Metal rendering view controller.
 
 #import "AAPLRenderViewController.h"
 #import "AAPLEditViewController.h"
-#include "AAPLRenderer.h"
+#include "MSLRenderer.h"
 
 @implementation AAPLRenderViewController
 {
     MTKView *_view;
     
-    AAPLRenderer *_renderer;
+    MSLRenderer *_renderer;
 }
 
 - (void)viewDidLoad
@@ -26,7 +26,7 @@ Implementation of the cross-platform Metal rendering view controller.
     _view.device = [self selectMetalDevice];
     NSAssert(_view.device, @"Metal is not supported on this device");
     _view.framebufferOnly = NO;
-    _renderer = [[AAPLRenderer alloc] initWithMetalKitView:_view];
+    _renderer = [[MSLRenderer alloc] initWithMetalKitView:_view];
     
     NSAssert(_renderer, @"Renderer failed initialization");
 
