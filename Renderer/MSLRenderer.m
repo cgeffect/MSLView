@@ -89,10 +89,8 @@ static const NSUInteger AAPLMaxFramesInFlight = 3;
 {
     NSError *error;
 
-    id<MTLLibrary> library = [_device newLibraryWithURL:[[NSBundle mainBundle]
-                                                                URLForResource:@"AAPLShaders"
-                                                                withExtension:@"metallib"]
-                                                         error:&error];
+    NSURL *URL = [[NSBundle mainBundle] URLForResource:@"AAPLShaders" withExtension:@"metallib"];
+    id<MTLLibrary> library = [_device newLibraryWithURL:URL error:&error];
 
     NSAssert(library, @"Failed to load AAPLShaders dynamic metal library: %@", error);
 
